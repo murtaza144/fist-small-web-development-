@@ -1,0 +1,363 @@
+html {
+  font-size: 16px;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 1rem;
+  /* background: linear-gradient(to right, #ddd6ff, #f7cbfe80); */
+  font-family: "lexend", sans-serif; /* background-color: #c7b9b94c; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Flex" sans-serif;
+  /* font-weight: 500; */
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1rem;
+}
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+.nav {
+  width: 10px;
+  margin: 3px;
+}
+.location {
+  color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#Banner {
+  width: 100%;
+  object-fit: cover;
+}
+.Team {
+  width: 100%;
+  border-radius: 10px;
+}
+.lower {
+  text-align: center;
+}
+.lower li {
+  margin: 0px 30px;
+  display: inline;
+  /* align-items: center; */
+  /* display: flex; */
+  /* flex-direction: row;  */
+  /* justify-content: space-around; */
+  /* gap: 20px; */
+  /* text-decoration: none; */
+  /* list-style: none; */
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* align-content: center; */
+}
+.lower a {
+  text-decoration: none;
+  color: #51a2ff;
+}
+.lower a:hover {
+  color: #e959fc;
+}
+.footer {
+  background-color: #f9e1ff;
+  margin: 8px;
+  /* max-width: 768px; */
+  padding-top: 16px;
+}
+.copy {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  margin: 10px auto;
+  font-size: 0.875rem;
+  color: #79716b;
+}
+#about {
+  display: flex;
+  max-width: 768px;
+  margin: 0 auto;
+}
+#discription {
+  width: 50%;
+  padding: 0px 10px;
+  margin-top: 0px;
+  font-size: 1.25rem;
+}
+#discription a {
+  text-decoration: none;
+  color: #615fff;
+}
+#discription a:hover {
+  color: #a378f9;
+  text-decoration: underline;
+}
+
+#teamimg {
+  width: 50%;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  margin-bottom: 0px;
+}
+/* .apply {
+  float: right;
+  border: 2px solid rgb(5, 99, 241);
+  background-color: darkblue;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  padding: 3px;
+  margin-left: 8px;
+  color: aliceblue;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  text-decoration: none;
+} */
+/* .apply:hover {
+  background-color: rgba(236, 250, 45, 0.461);
+  color: black;
+  border: none;
+} */
+.Job-apply {
+  margin: 0px auto;
+  max-width: 768px;
+  padding: 0px;
+  /* background-color: rgb(117, 117, 213); */
+}
+#job-table {
+  border: 1px solid rgba(128, 128, 128, 0.27);
+  width: 100%;
+  border-collapse: collapse;
+}
+.jobs-header th {
+  /* border: 1px solid grey; */
+  background-color: #d3e7ff;
+  padding: 8px;
+  /* text-align: left; */
+  font-weight: bold;
+  color: #333;
+}
+.jobs-data-rows td {
+  /* border: 1px solid grey; */
+  padding: 8px;
+}
+#job-table tr:nth-child(odd) {
+  background-color: #f3e8ff;
+}
+.remote {
+  text-align: center;
+}
+#Application {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 16px;
+  /* background-color: #f9fafb; */
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#Application-form {
+  display: grid;
+  gap: 20px;
+}
+#Application-form fieldset {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 0;
+}
+#Application-form legend {
+  padding: 0 10px;
+  font-weight: 600;
+  color: #4b5563;
+}
+#Application-form label {
+  /* display: block; */
+  /* margin-bottom: 8px; */
+  font-size: 1rem;
+  font-weight: 500;
+  color: #374151;
+  font-weight: bolder;
+}
+#Application-form input,
+#Application-form select,
+#Application-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #1f2937;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  transition: border-color 0.2s ease;
+  box-sizing: border-box;
+}
+#Application-form input:focus,
+#Application-form select:focus,
+#Application-form textarea:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+#Application-form input::placeholder {
+  color: #9ca3af;
+  opacity: 1;
+}
+#Application-form input[type="date"] {
+  appearance: none;
+  padding: 10px;
+  color: #1f2937;
+}
+#Application-form input[type="submit"] {
+  background-color: #4f46e5;
+  color: white;
+  font-weight: 500;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  width: auto;
+  margin-top: 16px;
+}
+#Application-form input[type="submit"]:hover {
+  background-color: #4338ca;
+}
+textarea {
+  font-family: "Roboto Flex", sans-serif;
+}
+
+#Application-form input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  accent-color: #4f46e5;
+  margin: 0 8px 0 0;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+/* Improved checkbox alignment for all screen sizes */
+#Application-form label[for="Aggrement"] {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  #about,
+  .Job-apply,
+  #Application {
+    max-width: 95vw;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  #about {
+    flex-direction: column;
+    max-width: 100vw;
+    gap: 20px;
+  }
+  #discription,
+  #teamimg {
+    width: 100%;
+    padding: 0;
+  }
+  #job-table,
+  .Job-apply {
+    max-width: 100vw;
+    font-size: 0.95rem;
+    overflow-x: auto;
+  }
+  #Application {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  #Banner {
+    height: 180px !important;
+    min-width: 100vw;
+    object-fit: cover;
+  }
+  .Team {
+    height: auto;
+    max-width: 100vw;
+  }
+  #job-table th,
+  #job-table td {
+    padding: 4px;
+    font-size: 0.9rem;
+  }
+  #Application-form input,
+  #Application-form select,
+  #Application-form textarea {
+    max-width: 100%;
+    font-size: 0.98rem;
+  }
+}
+
+/* Base Table Styles */
+#job-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#job-table th,
+#job-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+@media (max-width: 400px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .lower {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .copy {
+    margin-top: 12px;
+  }
+}

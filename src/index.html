@@ -1,0 +1,143 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jovain</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav">
+        <img src="https://jovian.com/jovian_logo.svg" alt="Jovain logo" width="100px" height="50px">
+    </div>
+    <img id="Banner"
+        src="https://plus.unsplash.com/premium_photo-1661771773771-a093c948ba92?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        height="500px" width="700px" alt="About Jovain">
+    <h1>About Jovain</h1>
+    <div id="about">
+        <div id="discription">
+            <p style="margin-top:0px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum alias accusantium
+                eaque omnis corporis ut
+                ad,
+                magni totam, rerum eius laudantium quasi saepe fugit culpa cumque dicta autem harum impedit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, et!
+            <ol>
+                <li><a href="https://jovian.com/" target="_blank">Full Stack Develper</a></li>
+                <li><a href="https://jovian.com/" target="_blank"> Data Science</a></li>
+            </ol>
+            </p>
+        </div>
+        <div id="teamimg">
+            <img class="Team" src="Team.jpg" alt="Team">
+        </div>
+    </div>
+
+    <h2>Job Oppertunity</h2>
+    <div class="Job-apply">
+        <table id="job-table">
+            <thead>
+                <tr class="jobs-header">
+                    <th>Job Title</th>
+                    <th>Country</th>
+                    <th>City</th>
+                    <th>Salary</th>
+                    <th>Posted On</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="jobs-data-rows">
+                    <td data-label="Job Title">Frontend Developer</td>
+                    <td data-label="Country">Pakistan</td>
+                    <td data-label="City">Lahore</td>
+                    <td data-label="Salary">Pkr. 150,000</td>
+                    <td data-label="Posted On">Jun-21-2025</td>
+                </tr>
+                <tr class="jobs-data-rows">
+                    <td data-label="Job Title">Full Stack Developer</td>
+                    <td data-label="Country">Pakistan</td>
+                    <td data-label="City">Lahore</td>
+                    <td data-label="Salary">Pkr. 180,000</td>
+                    <td data-label="Posted On">Jun-21-2025</td>
+                </tr>
+                <tr class="jobs-data-rows">
+                    <td data-label="Job Title">Data Sciencetics</td>
+                    <td data-label="Country">Pakistan</td>
+                    <td data-label="City">Lahore</td>
+                    <td data-label="Salary">Pkr. 200,000</td>
+                    <td data-label="Posted On">Jun-21-2025</td>
+                </tr>
+                <tr class="jobs-data-rows">
+                    <td data-label="Job Title">ML Engineer</td>
+                    <td colspan="2" data-label="Location">Remote</td>
+                    <td data-label="Salary">Pkr. 160,000</td>
+                    <td data-label="Posted On">Jun-21-2025</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div id="Application">
+        <h2>Submit Your Application</h2>
+        <form id="Application-form" action="https://formbold.com/s/6lp5G" method="POST" enctype="multipart/form-data">
+            <div>
+                <fieldset>
+                    <legend class="Personal">Personal Details</legend>
+                    <label for="name">Name:</label><br>
+                    <input class="opacity" type="text" id="name" name="name" required placeholder="John Doe"><br>
+
+                    <label for="email">Email:</label><br>
+                    <input class="opacity" type="email" id="email" name="email" required placeholder="John@example.com">
+                    <br>
+                    <label for="phone">Phone:</label><br>
+                    <input class="opacity" type="tel" id="phone" name="phone" required
+                        placeholder="+92-300-1234567"><br>
+                    <label for="DOB"> Date of Brither</label><br>
+                    <input class="opacity" type="date" id="DOB" name="DOB" required><br>
+                    <label for="Position">Position Applied For</label><br>
+                    <select id="Position" name="Position" required>
+                        <option value="" disabled selected>Select a position</option>
+                        <option value="FrontEnd">Front-End Developer</option>
+                        <option value="BackEnd">Full Stack Developer</option>
+                        <option value="DataScience">Data Sciencetics</option>
+                        <option value="MLEngineer">ML Engineer</option>
+                    </select><br>
+                    <label for="Uplaod Resume"> Upload Resume</label><br>
+                    <input type="file" id="Resume" name="Resume" accept=".pdf,.doc,.docx" required><br>
+                    <label for="Cover Letter">Cover Letter</label><br>
+                    <textarea name="Cover letter" id="Cover-letter"
+                        placeholder="Explain what makes you suitable for the job.." rows="5"></textarea><br>
+                    <label for="Aggrement">
+                        <input type="checkbox" id="Aggrement" name="Aggrement" required>
+                        I agree to the terms and conditions
+                    </label><br>
+                    <input type="submit" value="Submit Application" class="submit-btn">
+                </fieldset>
+            </div>
+        </form>
+    </div>
+
+    <div class="footer">
+        <ul class="lower">
+            <li>
+                <a href="https://jovian.com/" target="_blank">Courses</a>
+            </li>
+            <li>
+                <a href="https://jovian.com/" target="_blank">Programs</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/@jovianhq" target="_blank">Youtube</a>
+            </li>
+        </ul>
+        <div class="copy"> © Jovain,2025</div>
+    </div>
+
+</body>
+
+</html>
